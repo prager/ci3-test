@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Codeigniter Stripe Payment Integration Example - ItSolutionStuff.com</title>
+    <title>CI 3 Payments Testing</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <style type="text/css">
@@ -30,18 +30,21 @@
 <div class="container">
 	<div class="row">
 		<div class="col co-md-offset-3 text-center">
-			<h1>Stripe Payment Integration Example</h1>
+			<h1>Stripe Payment Integration Test</h1>
 			Inspired by <a href="https://www.itsolutionstuff.com/post/stripe-payment-gateway-integration-in-codeigniter-exampleexample.html" target="_blank">Hardik Savani</a>
 		</div>
 	</div>
-    <div class="row">
+	<div class="row">
+		<div class="col">&nbsp;</div>
+	</div>
+    <div class="row mt-3">
         <div class="col-md-6 col-md-offset-3">
             <div class="panel panel-default credit-card-box">
                 <div class="panel-heading display-table" >
                     <div class="row display-tr" >
                         <h3 class="panel-title display-td">Payment Details</h3>
                         <div class="display-td" >
-                            <img class="img-responsive pull-right" src="https://www.clipartmax.com/png/middle/255-2550378_credit-card-logo-credit-card-icons-png.png">
+                            <img class="img-responsive pull-right" src="https://files.kulisek.org/cc.png">
                         </div>
                     </div> 
                 </div>
@@ -59,6 +62,26 @@
                         <div class='form-row row'>
                             <div class='col-xs-12 form-group required'>
                                 <label class='control-label'>Name on Card</label> <input class='form-control' size='4' type='text'>
+                            </div>
+                        </div>
+
+						<div class='form-row row'>
+                            <div class='col-xs-12 form-group'>
+                                <label class='control-label'>Street Address</label> <input class='form-control' size='4' type='text'>
+                            </div>
+                        </div>
+
+						<div class='form-row row'>
+                            <div class='col-xs-12 col-md-4 form-group'>
+                                <label class='control-label'>City</label> <input class='form-control' size='18' type='text'>
+                            </div>
+
+                            <div class='col-xs-12 col-md-4 form-group'>
+                                <label class='control-label'>State</label> <input class='form-control' size='2' type='text'>
+                            </div>
+
+                            <div class='col-xs-12 col-md-4 form-group'>
+                                <label class='control-label'>Zip</label> <input class='form-control' size='5' type='text'>
                             </div>
                         </div>
 

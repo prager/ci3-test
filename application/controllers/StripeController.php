@@ -36,6 +36,9 @@ class StripeController extends CI_Controller {
 		try {
 			require_once('application/libraries/stripe-php/init.php');
 			\Stripe\Stripe::setApiKey($this->config->item('stripe_secret'));
+			\Stripe\Customer::create([
+				"description" => "the first customer",
+			]);
 			\Stripe\Charge::create ([
 					"amount" => 100 * 100,
 					"currency" => "usd",

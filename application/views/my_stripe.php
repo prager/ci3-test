@@ -81,7 +81,7 @@
                             </div>
 
                             <div class='col-xs-12 col-md-4 form-group'>
-                                <label class='control-label'>Zip</label> <input class='form-control' size='5' type='text'>
+                                <label class='control-label address-zip'>Zip</label> <input class='form-control' size='5' type='text'>
                             </div>
                         </div>
 

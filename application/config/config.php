@@ -537,3 +537,4 @@ $config['proxy_ips'] = '';
 |--------------------------------------------------------------------------
 | Inspired by: https://www.itsolutionstuff.com/post/stripe-payment-gateway-integration-in-codeigniter-exampleexample.html
 |
+*/
